@@ -42,6 +42,12 @@ Could NOT find OpenGL (missing: OPENGL_glx_LIBRARY)
 sudo apt-get install libgl1-mesa-dev mesa-common-dev libglu1-mesa-dev
 ```
 
+将python路径补充到 .bashrc
+
+```
+export PYTHONPATH=/home/xxx/habitat-sim/src_python:${PYTHONPATH}
+```
+
 外部链接：
 
 https://github.com/devendrachaplot/Object-Goal-Navigation
