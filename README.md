@@ -18,10 +18,11 @@ cd habitat-sim
 git checkout tags/v0.2.2
 pip install -r requirements.txt
 ```
-然后安装（最好用build）
+然后安装
 
 ```
 ./build.sh --headless
+python setup.py install --headless （优先）
 ```
 这一步是最最抽象的，一定要确定cmake版本是匹配的，问题不是网络就是cmake
 
