@@ -3,6 +3,8 @@
 如何简易安装habitat用于完成object goal navigation等task？ 
 适用ubuntu20.04 habitat版本v0.2.2
 
+也许使用habitatv0.2.1也许
+
 <h2>1、conda环境</h2>
 
 ```
