@@ -35,6 +35,7 @@ git checkout tags/v0.2.2
 pip install -e .
 ```
 
+
 <h2>补充：</h2>
 可能出现的问题：
 Could NOT find OpenGL (missing: OPENGL_glx_LIBRARY)
@@ -48,6 +49,19 @@ sudo apt-get install libgl1-mesa-dev mesa-common-dev libglu1-mesa-dev
 ```
 export PYTHONPATH=/home/xxx/habitat-sim/src_python:${PYTHONPATH}
 ```
+错误：
+Platform::WindowlessEglApplication::tryCreateContext(): unable to find CUDA device 0 among 1 EGL devices in total WindowlessContext: Unable to create windowless context
+
+目前唯一解决方案：更新驱动（最新）
+
+```
+ubuntu-drivers devices
+```
+
+```
+sudo apt install nvidia-driver-535
+```
+
 
 外部链接：
 
@@ -63,6 +77,8 @@ https://github.com/facebookresearch/habitat-sim.git
 
 https://github.com/facebookresearch/habitat-lab.git
 
+https://github.com/facebookresearch/habitat-sim/issues/2099
 
+https://github.com/facebookresearch/habitat-sim/issues/1511
 
 
