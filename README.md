@@ -39,7 +39,7 @@ pip install -e .
 
 
 <h2>补充：</h2>
-可能出现的问题：
+错误：
 Could NOT find OpenGL (missing: OPENGL_glx_LIBRARY)
 
 ```
