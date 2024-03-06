@@ -64,6 +64,12 @@ ubuntu-drivers devices
 sudo apt install nvidia-driver-535
 ```
 
+3/6更新
+
+AssertionError: ESP_CHECK failed: Missing (at least) one of scene dataset attributes, stage attributes, or dataset scene attributes for scene 'data/scene_datasets/hm3d/train/00572-dNASL765WSN/dNASL765WSN.basis.glb'.   Likely an invalid scene name.
+
+下载正确的文件：https://api.matterport.com/resources/habitat/hm3d-train-habitat-v0.2.tar
+
 
 外部链接：
 
