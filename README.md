@@ -17,7 +17,7 @@ conda create -n habitat python=3.7 cmake=3.14.0
 ```
 git clone https://github.com/facebookresearch/habitat-sim.git
 cd habitat-sim
-git checkout tags/v0.2.2
+git checkout tags/v0.2.1
 pip install -r requirements.txt
 ```
 然后安装
@@ -33,7 +33,7 @@ python setup.py install --headless （优先）
 ```
 git clone https://github.com/facebookresearch/habitat-lab.git
 cd habitat-lab
-git checkout tags/v0.2.2
+git checkout tags/v0.2.1
 pip install -e .
 ```
 
