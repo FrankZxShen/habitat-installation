@@ -37,6 +37,12 @@ git checkout tags/v0.2.1
 pip install -e .
 ```
 
+安装detectron2
+
+```
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+```
+
 
 <h2>补充：</h2>
 错误：
