@@ -76,6 +76,21 @@ AssertionError: ESP_CHECK failed: Missing (at least) one of scene dataset attrib
 
 下载正确的文件：https://api.matterport.com/resources/habitat/hm3d-train-habitat-v0.2.tar
 
+11/29更新
+
+TypeError: ObjectGoalNavEpisode.__init__() got an unexpected keyword argument 'scene_dataset_config'
+
+将
+```
+scene_dataset_config: str = attr.ib(
+    default="default", validator=not_none_validator
+)
+# list of paths to search for object config files in addition to the SceneDataset
+additional_obj_config_paths: List[str] = attr.ib(
+    default=[], validator=not_none_validator
+)
+```
+放到 PEANUT/habitat-lab/habitat/core/dataset.py
 
 外部链接：
 
